@@ -1,0 +1,31 @@
+2020-07-17T22:17:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function super_custom_field(), 1 passed in C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php on line 289 and exactly 2 expected in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php:5
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(289): super_custom_field(Array)
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3573): apply_filters('woocommerce_get...', Array, Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\mini-cart.php(61): wc_get_formatted_cart_item_data(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\header.php(37): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\wp-includes\template.php(723): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tu-changuito\wp-includes en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 5
+
+2020-07-17T22:18:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function super_custom_field(), 1 passed in C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php on line 289 and exactly 2 expected in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php:5
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(289): super_custom_field(Array)
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3573): apply_filters('woocommerce_get...', Array, Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\mini-cart.php(61): wc_get_formatted_cart_item_data(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\header.php(37): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\wp-includes\template.php(723): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tu-changuito\wp-includes en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 5
+
+2020-07-17T23:55:13+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_notices() in C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php:69
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#1 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#2 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(343): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#5 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(287): do_shortcode('[woocommerce_my...')
+#6 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(206): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#7 C:\xa en C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php en la línea 69
+

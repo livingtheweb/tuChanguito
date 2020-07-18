@@ -1,0 +1,107 @@
+2020-07-16T14:58:17+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\tu-changuito/wp-content/themes/shoppingcart/woocommerce/functions.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php en la línea 108
+
+2020-07-16T15:00:06+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php:326
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(287): super_custom_field(Array, Array)
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3573): apply_filters('woocommerce_get...', Array, Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\mini-cart.php(61): wc_get_formatted_cart_item_data(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2121): wc_get_template('cart/mini-cart....', Array)
+#6 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(186): wooco en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php en la línea 326
+
+2020-07-16T15:01:55+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php:326
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(287): super_custom_field(Array, Array)
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3573): apply_filters('woocommerce_get...', Array, Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\mini-cart.php(61): wc_get_formatted_cart_item_data(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2121): wc_get_template('cart/mini-cart....', Array)
+#6 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(186): wooco en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php en la línea 326
+
+2020-07-16T15:02:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php:326
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(287): super_custom_field(Array, Array)
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3573): apply_filters('woocommerce_get...', Array, Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\mini-cart.php(61): wc_get_formatted_cart_item_data(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2121): wc_get_template('cart/mini-cart....', Array)
+#6 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(186): wooco en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php en la línea 326
+
+2020-07-16T15:02:37+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php:326
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(287): super_custom_field(Array, Array)
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3573): apply_filters('woocommerce_get...', Array, Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\mini-cart.php(61): wc_get_formatted_cart_item_data(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2121): wc_get_template('cart/mini-cart....', Array)
+#6 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(186): wooco en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php en la línea 326
+
+2020-07-16T15:02:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php:326
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(287): super_custom_field(Array, Array)
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3573): apply_filters('woocommerce_get...', Array, Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\mini-cart.php(61): wc_get_formatted_cart_item_data(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2121): wc_get_template('cart/mini-cart....', Array)
+#6 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(186): wooco en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php en la línea 326
+
+2020-07-16T15:02:58+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\cart.php:29
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 C:\xampp\ en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\cart.php en la línea 29
+
+2020-07-16T15:05:56+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\cart.php:29
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include()
+#1 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 C:\xampp\ en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\cart.php en la línea 29
+
+2020-07-16T15:06:30+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\cart.php:29
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include()
+#1 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 C:\xampp\ en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\cart.php en la línea 29
+
+2020-07-16T22:56:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_field() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\cart.php:29
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include()
+#1 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 C:\xa en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\cart.php en la línea 29
+
+2020-07-16T23:19:08+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\cart.php:136
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include()
+#1 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 C:\xampp\htdocs\ en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\cart.php en la línea 136
+

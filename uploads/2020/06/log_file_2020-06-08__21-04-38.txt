@@ -1,0 +1,123 @@
+
+---Downloaded files---
+The import files for: Default ShoppingCart were successfully downloaded!
+Initial max execution time = 1000
+Files info:
+Site URL = http://localhost/tu-changuito
+Data file = C:\xampp\htdocs\tu-changuito\wp-content\plugins\theme-freesia-demo-import\files/dummy/shoppingcart/shoppingcart.wordpress.xml
+Widget file = C:\xampp\htdocs\tu-changuito\wp-content\plugins\theme-freesia-demo-import\files/dummy/shoppingcart/shoppingcart-widgets.wie
+Customizer file = C:\xampp\htdocs\tu-changuito\wp-content\plugins\theme-freesia-demo-import\files/dummy/shoppingcart/shoppingcart-export.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Barra lateral principal : 
+
+Buscar - No Title - Imported
+TF: entradas populares - No Title - Imported
+Archivos - No Title - Imported
+Categorías - No Title - Imported
+Meta - No Title - Imported
+
+Información de la parte superior de la cabecera : 
+
+Texto - No Title - Imported
+
+Banner de anuncios 1 : 
+
+Imagen - No Title - Imported
+
+Plantilla del carrito : 
+
+TF: widget de columna de productos en cuadrícula - Best Selling Products - Imported
+Productos - Products - Imported
+TF: widget de columna de productos en cuadrícula - Featured Products - Imported
+Productos por puntuación - Top rated products - Imported
+TF: widget de columna de productos en cuadrícula - New Arrival Product - Imported
+
+Barra lateral de la página de contacto : 
+
+HTML personalizado - Contact Info - Imported
+
+Barra lateral de WooCommerce : 
+
+Categorías de producto - Product categories - Imported
+Filtros de productos activos - Active filters - Imported
+Filtrar productos por precio - Filter by price - Imported
+Productos - Products - Imported
+Nube de etiquetas de productos - Product tags - Imported
+
+Plantilla del carrito de la columna del pie de página1 : 
+
+Productos - Featured Products - Imported
+
+Plantilla del carrito de la columna del pie de página2 : 
+
+Productos - On Sale Products - Imported
+
+Plantilla del carrito de la columna del pie de página3 : 
+
+Productos - All Products - Imported
+
+Plantilla del carrito de la columna del pie de página4 : 
+
+Productos - Products - Imported
+
+Columna del pie de página1 : 
+
+Texto - No Title - Imported
+
+Columna del pie de página2 : 
+
+HTML personalizado - We Accept - Imported
+
+Columna del pie de página3 : 
+
+HTML personalizado - Shop Location - Imported
+
+Columna del pie de página4 : 
+
+Imagen - Download App - Imported
+Imagen - No Title - Imported
+
+Widgets de Max Mega Menu : 
+
+Productos - Products - Imported
+Texto - No Title - Imported
+Productos - Products - Imported
+Texto - No Title - Imported
+Max Mega Menu - No Title - Imported
+Menú de navegación - No Title - Imported
+Imagen - Featured Product - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---tf-tfdi/after_import---
+

@@ -1,0 +1,119 @@
+#tablepress-1 .column-1 {
+/* 	background-color: #454d55; */
+	text-align: center;
+}
+
+#tablepress-1 .row-7,
+#tablepress-1 .row-11,
+#tablepress-1 .row-16,
+#tablepress-1 .row-21,
+#tablepress-1 .row-27,
+#tablepress-1 .row-31,
+#tablepress-1 .row-36,
+#tablepress-1 .row-40,
+#tablepress-1 .row-45,
+#tablepress-1 .row-53,
+#tablepress-1 .row-61,
+#tablepress-1 .row-68,
+#tablepress-1 .row-73,
+#tablepress-1 .row-78,
+#tablepress-1 .row-84,
+#tablepress-1 .row-89,
+#tablepress-1 .row-97,
+#tablepress-1 .row-100,
+#tablepress-1 .row-105,
+#tablepress-1 .row-110,
+#tablepress-1 .row-116,
+#tablepress-1 .row-121,
+#tablepress-1 .row-127,
+#tablepress-1 .row-131,
+#tablepress-1 .row-138,
+#tablepress-1 .row-143 {
+	border-bottom: 2px solid #ddd;
+	box-shadow: 0 1px #ddd;
+	background-color: rgba(0,0,0,.1);
+}
+
+#tablepress-6 .row-7,
+#tablepress-6 .row-11,
+#tablepress-6 .row-16,
+#tablepress-6 .row-21,
+#tablepress-6 .row-27,
+#tablepress-6 .row-31,
+#tablepress-6 .row-36,
+#tablepress-6 .row-40,
+#tablepress-6 .row-45,
+#tablepress-6 .row-53,
+#tablepress-6 .row-61,
+#tablepress-6 .row-68,
+#tablepress-6 .row-73,
+#tablepress-6 .row-78,
+#tablepress-6 .row-84,
+#tablepress-6 .row-89,
+#tablepress-6 .row-97,
+#tablepress-6 .row-100,
+#tablepress-6 .row-105,
+#tablepress-6 .row-110,
+#tablepress-6 .row-116,
+#tablepress-6 .row-121,
+#tablepress-6 .row-127,
+#tablepress-6 .row-131,
+#tablepress-6 .row-138,
+#tablepress-6 .row-143 {
+	border-bottom: 2px solid #ddd;
+	box-shadow: 0 1px #ddd;
+	background-color: rgba(0,0,0,.1);
+}
+
+#tablepress-5 .row-7,
+#tablepress-5 .row-13,
+#tablepress-5 .row-16,
+#tablepress-5 .row-22,
+#tablepress-5 .row-27,
+#tablepress-5 .row-30,
+#tablepress-5 .row-35 {
+	border-bottom: 2px solid #ddd;
+	box-shadow: 0 1px #ddd;
+	background-color: rgba(0,0,0,.1);
+}
+
+.tablepress {
+	-webkit-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+}
+
+.tablepress tr th[rowspan] {
+	-webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,.15);
+	border-bottom: solid 1px #bbb;
+}
+
+/* #tablepress-1 .odd td {
+	background-color: #4EBFAB;
+}
+
+#tablepress-1 .even td {
+	background-color: #F25050;
+} */
+/* Border a la fila de la cabecera */
+#tablepress-1 tr:last-child {
+	border-bottom: solid 2px rgba(255,255,255,.5);
+}
+
+.tablepress {
+	font-family: tahoma;
+}
+
+.tablepress td {
+	text-align: center;
+}
+
+.tablepress thead th {
+	background-color: #454d55; /* 	background-color: #6c7ae0; */
+	color: #fff;
+	padding: 15px 5px;
+	text-align: center;
+	border-right: solid 3px rgba(255,255,255,.5);
+}
+
+.dataTables_wrapper .tablepress {
+	border-radius: 10px;
+}

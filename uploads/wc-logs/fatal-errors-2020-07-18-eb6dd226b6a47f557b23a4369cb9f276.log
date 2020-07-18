@@ -1,0 +1,6 @@
+2020-07-18T13:15:17+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\header.php en la línea 244
+
+2020-07-18T13:16:45+00:00 CRITICAL Cannot redeclare shoppingcart_frontpage_product_categories() (previously declared in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\inc\front-page\front-page-features.php:72) en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\header.php en la línea 263
+
+2020-07-18T13:17:12+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\inc\front-page\front-page-features.php en la línea 92
+
