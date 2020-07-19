@@ -1,0 +1,67 @@
+2020-07-19T13:40:13+00:00 CRITICAL syntax error, unexpected '}' en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 30
+
+2020-07-19T13:40:22+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 201
+
+2020-07-19T13:50:09+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\woocommerce\cart\cart.php en la línea 186
+
+2020-07-19T13:58:14+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 220
+
+2020-07-19T13:58:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function suma_precio_mas_bajo(), 0 passed in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php on line 221 and exactly 6 expected in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php:218
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php(221): suma_precio_mas_bajo()
+#1 C:\xampp\htdocs\tu-changuito\wp-settings.php(508): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tu-changuito\wp-config.php(81): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tu-changuito\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tu-changuito\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 218
+
+2020-07-19T14:07:22+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 222
+
+2020-07-19T14:11:39+00:00 CRITICAL Uncaught Error: Call to undefined function suma_precio_6() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php:203
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(287): suma_precio_mas_bajo('')
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\woocommerce\cart\cart.php(212): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#6 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#7 C:\xampp\htdocs\tu-changuito\w en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 203
+
+2020-07-19T14:12:30+00:00 CRITICAL syntax error, unexpected '<', expecting end of file en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 228
+
+2020-07-19T14:14:52+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 236
+
+2020-07-19T14:15:23+00:00 CRITICAL Uncaught Error: Call to undefined method algo::uma_precio_6() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php:239
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-settings.php(508): include()
+#1 C:\xampp\htdocs\tu-changuito\wp-config.php(81): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tu-changuito\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tu-changuito\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tu-changuito\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 239
+
+2020-07-19T14:16:26+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php:238
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php(255): algo->suma_precio_6()
+#1 C:\xampp\htdocs\tu-changuito\wp-settings.php(508): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tu-changuito\wp-config.php(81): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tu-changuito\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tu-changuito\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 238
+
+2020-07-19T14:20:15+00:00 CRITICAL Uncaught Error: Class 'algo' not found in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php:246
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-settings.php(508): include()
+#1 C:\xampp\htdocs\tu-changuito\wp-config.php(81): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tu-changuito\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tu-changuito\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tu-changuito\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 246
+

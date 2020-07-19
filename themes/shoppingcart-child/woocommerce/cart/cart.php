@@ -40,9 +40,9 @@ function descheckeo() {
 	var mostrarsuper1 = document.getElementById("mostrar-super-1");
 	var mostrarsuper2 = document.getElementById("mostrar-super-2");
 	var mostrarsuper3 = document.getElementById("mostrar-super-3");
-	var mostrarsuper3 = document.getElementById("mostrar-super-4");
-	var mostrarsuper3 = document.getElementById("mostrar-super-5");
-	var mostrarsuper3 = document.getElementById("mostrar-super-6");
+	var mostrarsuper4 = document.getElementById("mostrar-super-4");
+	var mostrarsuper5 = document.getElementById("mostrar-super-5");
+	var mostrarsuper6 = document.getElementById("mostrar-super-6");
 	
 	if (mostrarsuper1.checked == true){
     $("#mi-carro .super1").removeClass("no-mostrar");
@@ -59,17 +59,17 @@ function descheckeo() {
   } else {
     $("#mi-carro .super3").addClass("no-mostrar");
 	}
-  	if (mostrarsuper3.checked == true){
+  	if (mostrarsuper4.checked == true){
     $("#mi-carro .super4").removeClass("no-mostrar");
   } else {
     $("#mi-carro .super4").addClass("no-mostrar");
 	}
-  	if (mostrarsuper3.checked == true){
+  	if (mostrarsuper5.checked == true){
     $("#mi-carro .super5").removeClass("no-mostrar");
   } else {
     $("#mi-carro .super5").addClass("no-mostrar");
 	}
-  	if (mostrarsuper3.checked == true){
+  	if (mostrarsuper6.checked == true){
     $("#mi-carro .super6").removeClass("no-mostrar");
   } else {
     $("#mi-carro .super6").addClass("no-mostrar");
@@ -199,7 +199,7 @@ foreach ($terms as $term) {
 				<td colspan="6" class="actions">
 
 				
-
+					<!-- Botón de actualizar carrito -->
 					<button type="submit" class="button" name="update_cart" value="<?php esc_attr_e( 'Actualizar Changuito', 'woocommerce' ); ?>"><?php esc_html_e( 'Actualizar Changuito', 'woocommerce' ); ?></button>
 
 					<?php do_action( 'woocommerce_cart_actions' ); ?>
@@ -208,9 +208,13 @@ foreach ($terms as $term) {
 				</td>
 			</tr>
 
+			<!-- Trae lista de los súper y los precios -->
 			<?php do_action( 'woocommerce_after_cart_contents' ); ?>
+			
 		</tbody>
 	</table>
+
+	<!-- Footer de la tabla, donde sale botón COMPARTIR -->
 	<?php do_action( 'woocommerce_after_cart_table' ); ?>
 </form>
 

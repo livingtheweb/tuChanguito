@@ -73,7 +73,7 @@ function suma_precio_1() {
 
 //Suma los custom field de precio 1
 //Elige el lugar donde lo muestra
-add_filter( 'woocommerce_after_cart_contents', 'suma_precio_2', 1, 2 );
+add_filter( 'woocommerce_after_cart_contents', 'suma_precio_2', 10, 2 );
 //este es despues del carro antes del checkout
 add_action( 'woocommerce_cart_totals_before_shipping', 'suma_precio_2', 20 );
 //este es en el checkout
@@ -93,7 +93,9 @@ function suma_precio_2() {
     if( $total_2 > 0 ){
 
         // The Output
+        // Muestra precio sumado de cada súper en el changuito
         echo ' <tr class="super2">
+            
             <td colspan="5"><p><strong>' .$supermercado_2.  '</strong></td> <td colspan="" style="text-align:right;"><span>$' . number_format($total_2, 2) . '</span></p></td>
         </tr>';
     }
@@ -211,4 +213,64 @@ function suma_precio_6() {
             <td colspan="5"><p><strong>' .$supermercado_6.  '</strong></td> <td colspan="" style="text-align:right;"><span>$' . number_format($total_6, 2) . '</span></p></td>
         </tr>';
     }
+    
 }
+
+// Muestra pecio antes de la tabla
+// probando repetir las funciones en una sola función
+function suma_precio_mas_bajo() {
+    $total_5 = 0;
+
+    $supermercado_5 = get_field('super_5', 408);
+
+ // Busca en el loop del carro el cutom field en cada producto y los suma y multiplica por la cantidad
+ foreach( WC()->cart->get_cart() as $cart_item ){
+     $precio_super_5 = (float) get_post_meta( $cart_item['product_id'], 'precio_5', true );
+     $total_5  += $precio_super_5 * $cart_item['quantity'];
+ }
+
+
+    $total_6 = 0;
+
+   	$supermercado_6 = get_field('super_6', 408);
+
+    // Busca en el loop del carro el cutom field en cada producto y los suma y multiplica por la cantidad
+    foreach( WC()->cart->get_cart() as $cart_item ){
+        $precio_super_6 = (float) get_post_meta( $cart_item['product_id'], 'precio_6', true );
+        $total_6  += $precio_super_6 * $cart_item['quantity'];
+    }
+ 
+    // Muestra el precio más bajo
+    // Falta que traiga el súper
+    echo ' <tr class="super5">
+    <td colspan="5"><p><strong>' .$supermercado_6.  '</strong></td> <td colspan="" style="text-align:right;"><span>$' .  min($total_5, $total_6) . '</span></p></td>
+</tr>';
+
+    echo "Precio más bajo: ";
+   
+   
+}
+add_filter( 'woocommerce_after_cart_contents', 'suma_precio_mas_bajo');
+
+// Probra con una clase de PHP
+// Funcion e imprimie un 2
+// class algo 
+// {
+
+//     public function haceralgo1(){
+//         $num1=1;
+//         $num2=1;
+
+//         $resultado = self::haceralgo2($num1,$num2);
+//         return $resultado;
+//     }
+
+//     public function haceralgo2($num1,$num2){
+//         $result = $num1 +$num2;
+//         return $result;
+//     }
+// }
+
+// $mostrar =  new algo;
+// $imprimir = $mostrar->haceralgo1();
+// echo $imprimir;

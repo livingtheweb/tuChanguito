@@ -55,7 +55,7 @@ p.precios-single-product span{
 
 /* Mini carro */
 section#mini-carro{
-	display:none;
+	/* display:none; */
 	width: 400px;
 	height: 100vh;
 	position: fixed;
