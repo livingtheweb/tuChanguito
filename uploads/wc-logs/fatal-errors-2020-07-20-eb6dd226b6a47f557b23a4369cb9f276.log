@@ -1,0 +1,47 @@
+2020-07-20T00:41:40+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 294
+
+2020-07-20T00:45:24+00:00 CRITICAL Uncaught Error: Call to undefined function saludo() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-settings.php(508): include()
+#1 C:\xampp\htdocs\tu-changuito\wp-config.php(81): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tu-changuito\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tu-changuito\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tu-changuito\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 295
+
+2020-07-20T01:47:26+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\sidebar-price.php:25
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-includes\template.php(723): require_once()
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\tu-changuito\wp-includes\general-template.php(111): locate_template(Array, true)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\page.php(60): get_sidebar('price')
+#4 C:\xampp\htdocs\tu-changuito\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tu-changuito\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\sidebar-price.php en la línea 25
+
+2020-07-20T01:47:33+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\sidebar-price.php:25
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-includes\template.php(723): require_once()
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\tu-changuito\wp-includes\general-template.php(111): locate_template(Array, true)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\page.php(60): get_sidebar('price')
+#4 C:\xampp\htdocs\tu-changuito\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tu-changuito\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\sidebar-price.php en la línea 25
+
+2020-07-20T02:15:30+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_notices() in C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php:69
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#1 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#2 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(343): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#5 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(287): do_shortcode('[woocommerce_my...')
+#6 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(206): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#7 C:\xa en C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php en la línea 69
+

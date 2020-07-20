@@ -217,8 +217,48 @@ function suma_precio_6() {
 }
 
 // Muestra pecio antes de la tabla
-// probando repetir las funciones en una sola función
+// Probando repetir las funciones en una sola función
 function suma_precio_mas_bajo() {
+    $total_1 = 0;
+
+    $supermercado_1 = get_field('super_1',408);
+
+ // Busca en el loop del carro el cutom field en cada producto y los suma y multiplica por la cantidad
+ foreach( WC()->cart->get_cart() as $cart_item ){
+     $precio_super_1 = (float) get_post_meta( $cart_item['product_id'], 'precio_1', true );
+     $total_1  += $precio_super_1 * $cart_item['quantity'];
+ }
+
+    $total_2 = 0;
+
+    $supermercado_2 = get_field('super_2', 408);
+
+ // Busca en el loop del carro el cutom field en cada producto y los suma y multiplica por la cantidad
+ foreach( WC()->cart->get_cart() as $cart_item ){
+     $precio_super_2 = (float) get_post_meta( $cart_item['product_id'], 'precio_2', true );
+     $total_2  += $precio_super_2 * $cart_item['quantity'];
+ }
+
+    $total_3 = 0;
+
+    $supermercado_3 = get_field('super_3', 408);
+
+ // Busca en el loop del carro el cutom field en cada producto y los suma y multiplica por la cantidad
+ foreach( WC()->cart->get_cart() as $cart_item ){
+     $precio_super_3 = (float) get_post_meta( $cart_item['product_id'], 'precio_3', true );
+     $total_3  += $precio_super_3 * $cart_item['quantity'];
+ }
+
+    $total_4 = 0;
+
+    $supermercado_4 = get_field('super_4', 408);
+
+ // Busca en el loop del carro el cutom field en cada producto y los suma y multiplica por la cantidad
+ foreach( WC()->cart->get_cart() as $cart_item ){
+     $precio_super_4 = (float) get_post_meta( $cart_item['product_id'], 'precio_4', true );
+     $total_4  += $precio_super_4 * $cart_item['quantity'];
+ }
+
     $total_5 = 0;
 
     $supermercado_5 = get_field('super_5', 408);
@@ -240,13 +280,25 @@ function suma_precio_mas_bajo() {
         $total_6  += $precio_super_6 * $cart_item['quantity'];
     }
  
-    // Muestra el precio más bajo
-    // Falta que traiga el súper
-    echo ' <tr class="super5">
-    <td colspan="5"><p><strong>' .$supermercado_6.  '</strong></td> <td colspan="" style="text-align:right;"><span>$' .  min($total_5, $total_6) . '</span></p></td>
+    // Muestra el precio más bajo según el súper  
+    $calcular_minimo_por_supermercado = min($total_1, $total_2, $total_3, $total_4, $total_5, $total_6);
+    $supers = array(
+        $total_1 => $supermercado_1,
+        $total_2 => $supermercado_2,   
+        $total_3 => $supermercado_3,   
+        $total_4 => $supermercado_4,   
+        $total_5 => $supermercado_5,  
+        $total_6 => $supermercado_6   
+    );
+
+    echo ' <tr class="precio-mas-bajo">
+    <td colspan="5">Precio más bajo en: <h3><strong>' . ($supers[$calcular_minimo_por_supermercado]) .  '</strong></td> <td colspan="" style="text-align:center;font-size:18px;font-weight:bold"><span>$' .  $min = min($total_1, $total_2, $total_3, $total_4, $total_5, $total_6) . '</span></h3></td>
 </tr>';
 
-    echo "Precio más bajo: ";
+
+// $min = min($total_1, $total_2);
+  
+    
    
    
 }
