@@ -55,7 +55,7 @@ p.precios-single-product span{
 
 /* Mini carro */
 section#mini-carro{
-	/* display:none; */
+	display:none;
 	width: 400px;
 	height: 100vh;
 	position: fixed;
@@ -270,6 +270,21 @@ section#mini-carro h3.vacio{
 	display: none !important;
 }
 
+/* Mostrar carrito */
+.cart-box .widget_shopping_cart {
+	opacity: 1;
+	visibility: visible;
+	top: 50px;
+	box-shadow: 0 6px 12px rgba(0,0,0,.23), 0 10px 40px rgba(0,0,0,.19);
+}
+
+/* Ocultar carrito cuando NAV sticky */
+#sticky-header .widget_shopping_cart {
+	display:none;
+}
+
+
+
 /* Categoría de productos con íconos*/
 
 /* Ocultar la barra de productos por defecto */
@@ -315,6 +330,12 @@ section#mini-carro h3.vacio{
 		color:#f5f4f4;
 
 	}
+
+/* Tienda */
+span.price {
+	display:none !important;
+}
+
 
 /* Carro final */
 .precio-mas-bajo {

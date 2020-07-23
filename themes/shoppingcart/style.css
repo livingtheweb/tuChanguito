@@ -4689,12 +4689,12 @@ div.bbp-template-notice, div.indicator-hint {
 	z-index: 9999;
 }
 
-.header-right .cart-box:hover .widget_shopping_cart,
+/* .header-right .cart-box:hover .widget_shopping_cart,
 .header-right .cart-box.focus .widget_shopping_cart {
 	opacity: 1;
 	visibility: visible;
 	top: 50px;
-}
+} */
 
 .header-right .woocommerce a.button {
 	padding: 5px 10px;

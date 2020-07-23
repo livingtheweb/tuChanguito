@@ -1,0 +1,66 @@
+2020-07-23T13:52:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function super_custom_field(), 1 passed in C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php on line 289 and exactly 2 expected in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php:5
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(289): super_custom_field(Array)
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3573): apply_filters('woocommerce_get...', Array, Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce\cart\mini-cart.php(61): wc_get_formatted_cart_item_data(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\header.php(37): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\wp-includes\template.php(723): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tu-changuito\wp-includes en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 5
+
+2020-07-23T14:00:10+00:00 CRITICAL Uncaught Error: Call to undefined function apply_filter() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php:5
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-settings.php(508): include()
+#1 C:\xampp\htdocs\tu-changuito\wp-config.php(81): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tu-changuito\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tu-changuito\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tu-changuito\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 5
+
+2020-07-23T14:18:36+00:00 CRITICAL Cannot use [] for reading en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 45
+
+2020-07-23T14:20:41+00:00 CRITICAL syntax error, unexpected ')', expecting ']' en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 46
+
+2020-07-23T14:47:48+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\tu-changuito/wp-content/themes/shoppingcart/woocommerce/functions.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php en la línea 124
+
+2020-07-23T14:48:03+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\tu-changuito/wp-content/themes/shoppingcart/woocommerce/functions.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php en la línea 124
+
+2020-07-23T14:51:53+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\tu-changuito/wp-content/themes/shoppingcart/woocommerce/functions.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php en la línea 124
+
+2020-07-23T14:52:12+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\tu-changuito/wp-content/themes/shoppingcart/woocommerce/functions.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php en la línea 124
+
+2020-07-23T14:59:08+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_notices() in C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php:69
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#1 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#2 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(343): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#5 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(287): do_shortcode('[woocommerce_my...')
+#6 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(206): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#7 C:\xa en C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php en la línea 69
+
+2020-07-23T15:23:07+00:00 CRITICAL Cannot redeclare shoppingcart_woocommerce_add_to_cart_fragment() (previously declared in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php:310) en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\woocommerce\cart\mini-cart.php en la línea 45
+
+2020-07-23T15:23:21+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php:316
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-settings.php(508): include()
+#1 C:\xampp\htdocs\tu-changuito\wp-config.php(81): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tu-changuito\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tu-changuito\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tu-changuito\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\functions.php en la línea 316
+
+2020-07-23T19:18:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\header.php on line 118 and exactly 1 expected in C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php:444
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\header.php(118): do_action()
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\template.php(723): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tu-changuito\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', true)
+#3 C:\xampp\htdocs\tu-changuito\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart\woocommerce.php(10): get_header()
+#5 C:\xampp\htdocs\tu-changuito\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tu-changuito\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tu-changuito\index.php(17): require('C:\\ en C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php en la línea 444
+

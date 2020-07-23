@@ -21,8 +21,14 @@ defined( 'ABSPATH' ) || exit;
 
 do_action( 'woocommerce_before_mini_cart' ); ?>
 
+
 <?php if ( ! WC()->cart->is_empty() ) : ?>
 
+	
+
+	<!-- Muestra imagen del producto, descripción y botón de borrar
+	Esto se ve en el cart hover
+  --------------------------------------------------------------- -->
 	<ul class="woocommerce-mini-cart cart_list product_list_widget <?php echo esc_attr( $args['list_class'] ); ?>">
 		<?php
 		do_action( 'woocommerce_before_mini_cart_contents' );
@@ -36,7 +42,13 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 				$thumbnail         = apply_filters( 'woocommerce_cart_item_thumbnail', $_product->get_image(), $cart_item, $cart_item_key );
 				$product_permalink = apply_filters( 'woocommerce_cart_item_permalink', $_product->is_visible() ? $_product->get_permalink( $cart_item ) : '', $cart_item, $cart_item_key );
 				?>
+
+				<!-- Muestra cada producto
+				-------------------------- -->
+				
 				<li class="woocommerce-mini-cart-item <?php echo esc_attr( apply_filters( 'woocommerce_mini_cart_item_class', 'mini_cart_item', $cart_item, $cart_item_key ) ); ?>">
+					<!-- Botón de remover (ver que no funciona)
+					------------------------------------------- -->
 					<?php
 					echo apply_filters( // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 						'woocommerce_cart_item_remove_link',
@@ -57,7 +69,7 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 						<a href="<?php echo esc_url( $product_permalink ); ?>">
 							<?php echo $thumbnail . $product_name; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 						</a>
-					<?php endif; ?>
+					<?php endif; ?>			
 					<?php echo wc_get_formatted_cart_item_data( $cart_item ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 					<?php echo apply_filters( 'woocommerce_widget_cart_item_quantity', '<span class="quantity">Cantidad: ' . $cart_item['quantity'] . '</span>', $cart_item, $cart_item_key ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 				</li>

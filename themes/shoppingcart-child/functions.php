@@ -1,6 +1,8 @@
 <?php 
 
+
 // Muestra los custom fields en el carrito
+// Muestra el precio de cada producto en cada súper en el Mini-changuito
 add_filter( 'woocommerce_get_item_data', 'super_custom_field', 10, 2 );
 function super_custom_field( $cart_data, $cart_item ) 
 {
@@ -12,14 +14,16 @@ function super_custom_field( $cart_data, $cart_item )
     // Los busca desde el id
     $product_id = $cart_item['product_id'];
     
-    $supermercado_1 = get_field('super_1',408);
+    // El súper lo trae
+    $supermercado_1 = get_field('super_1',408);  
     $supermercado_2 = get_field('super_2',408);	
     $supermercado_3 = get_field('super_3',408);		
     $supermercado_4 = get_field('super_4',408);		
     $supermercado_5 = get_field('super_5',408);		
     $supermercado_6 = get_field('super_6',408);		
 
-	if( $precio_1 = get_post_meta( $product_id, 'precio_1', true ))
+    // El precio asociado al súper lo trae
+    if( $precio_1 = get_post_meta( $product_id, 'precio_1', true ))  
     if( $precio_2 = get_post_meta( $product_id, 'precio_2', true ))
     if( $precio_3 = get_post_meta( $product_id, 'precio_3', true ))  
     if( $precio_4 = get_post_meta( $product_id, 'precio_5', true ))  
@@ -40,7 +44,9 @@ function super_custom_field( $cart_data, $cart_item )
         );
 
     return $items_super;
+    
 }
+
 
 //Suma los custom field de precio 1
 //Elige el lugar donde lo muestra
