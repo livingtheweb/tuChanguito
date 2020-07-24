@@ -81,6 +81,7 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 		?>
 	</ul>
 
+	<!-- Tabla fondo blanco -->
 	<div class="woocommerce-mini-cart__total total">
 		<?php
 		/**

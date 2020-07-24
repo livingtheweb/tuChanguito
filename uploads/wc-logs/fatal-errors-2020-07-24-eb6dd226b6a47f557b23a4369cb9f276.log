@@ -1,0 +1,43 @@
+2020-07-24T13:03:56+00:00 CRITICAL Uncaught Error: Call to undefined function jQuery() in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php:314
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-settings.php(508): include()
+#1 C:\xampp\htdocs\tu-changuito\wp-config.php(81): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tu-changuito\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tu-changuito\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 314
+
+2020-07-24T13:16:28+00:00 CRITICAL syntax error, unexpected '}' en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 9
+
+2020-07-24T13:16:36+00:00 CRITICAL syntax error, unexpected '}' en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 9
+
+2020-07-24T13:17:01+00:00 CRITICAL syntax error, unexpected '}' en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 10
+
+2020-07-24T14:42:24+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\woocommerce\single-product\price.php:25
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php(319): include()
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(287): suma_precio_mas_bajo('')
+#2 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\woocommerce\cart\cart.php(281): do_action('woocommerce_aft...')
+#5 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#7 C:\xampp\htdocs\tu-changuito\wp-con en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\woocommerce\single-product\price.php en la línea 25
+
+2020-07-24T14:42:57+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 357
+
+2020-07-24T14:43:18+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 357
+
+2020-07-24T14:44:14+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php:322
+Stack trace:
+#0 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(287): suma_precio_mas_bajo('')
+#1 C:\xampp\htdocs\tu-changuito\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\tu-changuito\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\woocommerce\cart\cart.php(281): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#6 C:\xampp\htdocs\tu-changuito\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#7 C:\xampp\htdocs\tu-cha en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\functions.php en la línea 322
+
+2020-07-24T14:56:41+00:00 CRITICAL syntax error, unexpected '?>', expecting ',' or ')' en C:\xampp\htdocs\tu-changuito\wp-content\themes\shoppingcart-child\woocommerce\cart\cart.php en la línea 237
+

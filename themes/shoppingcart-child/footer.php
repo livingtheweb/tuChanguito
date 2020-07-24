@@ -86,5 +86,38 @@ $footer_column = $shoppingcart_settings['shoppingcart_footer_column_section'];
 </div><!-- end .site-content-contain -->
 </div><!-- end #page -->
 <?php wp_footer(); ?>
+
+<!-- Modal home -->
+<!-- Modal bienvenida -->
+<div class="modal fade pt-5" id="modal-bienvenida">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+			<img src="<?php echo site_url(); ?>/wp-content/uploads/2020/04/003-shopping-cart.svg" alt="" style="top: 0;
+							    margin-right: 15px;
+							    width: 40px;
+							    position: relative;">
+				<h5 class="modal-title modal-title-modal-home text-center" id="exampleModalLabel">¡Bienvenidos al TuChanguito!</h5>
+			
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-6">
+						<h3 class="pl-3">Aclaración sobre precios</h3>
+						<p class="pl-3">Poner aclaración de que los pecios pueden variar</p>
+					</div>
+					<div class="col-md-6">
+						<figure>
+							<img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/ofertas.png" class="w-50 float-right" alt="">
+						</figure>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 </body>
 </html>

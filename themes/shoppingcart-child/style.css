@@ -53,12 +53,11 @@ p.precios-single-product span{
 	width: 100%;
 }
 
-/* Mini carro */
-section#mini-carro{
-	display:none;
+/* Mini carro nuevo */
+.widget_shopping_cart {
 	width: 400px;
 	height: 100vh;
-	position: fixed;
+	position: fixed !important;
 	top:0;
 	right: 0;
 	bottom:0;
@@ -69,23 +68,44 @@ section#mini-carro{
 	z-index: 300;
 }
 
-section#mini-carro::-webkit-scrollbar {
+/* Mini carro */
+
+section#mini-carro {
+	/* display:none; */
+	width: 400px;
+	height: 100vh;
+	position: fixed !important;
+	top:0;
+	right: 0;
+	bottom:0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding:40px;
+	background-color: rgba(200,200,200);
+	z-index: 300;
+}
+
+section#mini-carro::-webkit-scrollbar,
+.widget_shopping_cart::-webkit-scrollbar {
   width: 5px;
 }
 
 /* Track */
-section#mini-carro::-webkit-scrollbar-track {
+section#mini-carro::-webkit-scrollbar-track,
+.widget_shopping_cart::-webkit-scrollbar-track {
   background: transparent; 
 }
  
 /* Handle */
-section#mini-carro::-webkit-scrollbar-thumb {
+section#mini-carro::-webkit-scrollbar-thumb,
+.widget_shopping_cart::-webkit-scrollbar-thumb  {
   background: #888; 
   border-radius: 5px;
 }
 
 /* Handle on hover */
-section#mini-carro::-webkit-scrollbar-thumb:hover {
+section#mini-carro::-webkit-scrollbar-thumb:hover,
+.widget_shopping_cart::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
 
@@ -94,7 +114,7 @@ section#mini-carro h3{
 	color:gray;
 }
 
-section#mini-carro a img{
+section#mini-carro a img {
 	width: 80px;
 	height: 80px;
 	object-fit: contain;
@@ -174,7 +194,8 @@ section#mini-carro a.remove.remove_from_cart_button:hover{
 }
 
 
-section#mini-carro a.checkout.button{
+section#mini-carro a.checkout.button,
+.widget_shopping_cart a.checkout.button{
 	display: none;
 }
 
@@ -282,7 +303,6 @@ section#mini-carro h3.vacio{
 #sticky-header .widget_shopping_cart {
 	display:none;
 }
-
 
 
 /* Categoría de productos con íconos*/

@@ -1,5 +1,20 @@
 <?php 
 
+// Bootstrap
+function styles_scrips() {
+  wp_enqueue_style( 
+    'bootstrap', 
+    get_stylesheet_directory_uri() . "/css/bootstrap.min.css",    
+    "all" 
+  );
+  wp_enqueue_script( 
+    'bootstrap', 
+    get_stylesheet_directory_uri() . "/js/bootstrap.min.js", 
+    array('jquery'), 
+    true
+  );
+}
+add_action('wp_enqueue_scripts','styles_scrips');
 
 // Muestra los custom fields en el carrito
 // Muestra el precio de cada producto en cada súper en el Mini-changuito
@@ -302,6 +317,7 @@ function suma_precio_mas_bajo() {
 </tr>';
 
 
+
 // $min = min($total_1, $total_2);
   
     
@@ -310,25 +326,21 @@ function suma_precio_mas_bajo() {
 }
 add_filter( 'woocommerce_after_cart_contents', 'suma_precio_mas_bajo');
 
-// Probra con una clase de PHP
-// Funcion e imprimie un 2
-// class algo 
-// {
+// Modal
+function modal_home() {
+  if (is_page('Shop') ) {
+    echo '<script>
+    jQuery(window).load(function(){
+      jQuery("#modal-bienvenida").modal("show");
+    }); 
+    </script>';
+  } else {
+    // Nada
+  }
+ 
+}
+add_action( 'wp_footer', 'modal_home' );
 
-//     public function haceralgo1(){
-//         $num1=1;
-//         $num2=1;
 
-//         $resultado = self::haceralgo2($num1,$num2);
-//         return $resultado;
-//     }
 
-//     public function haceralgo2($num1,$num2){
-//         $result = $num1 +$num2;
-//         return $result;
-//     }
-// }
-
-// $mostrar =  new algo;
-// $imprimir = $mostrar->haceralgo1();
-// echo $imprimir;
+ 
