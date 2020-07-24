@@ -56,9 +56,13 @@ $shoppingcart_display_page_single_featured_image = $shoppingcart_settings['shopp
 			} ?>
 		</main><!-- end #main -->
 	</div> <!-- #primary -->
-<?php
-get_sidebar();
-?>
+	<div id="secondary">
+	<?php
+		get_sidebar('cart');
+		?>
+	</div>
+
+
 </div><!-- end .wrap -->
 <?php
 get_footer();

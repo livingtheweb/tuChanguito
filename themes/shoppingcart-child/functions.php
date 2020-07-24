@@ -230,7 +230,7 @@ function suma_precio_6() {
     if( $total_6 > 0 ){
 
         // The Output
-        echo ' <tr class="super5">
+        echo ' <tr class="super6">
             <td colspan="5"><p><strong>' .$supermercado_6.  '</strong></td> <td colspan="" style="text-align:right;"><span>$' . number_format($total_6, 2) . '</span></p></td>
         </tr>';
     }

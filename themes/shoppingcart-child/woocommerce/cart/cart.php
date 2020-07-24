@@ -24,77 +24,13 @@ do_action( 'woocommerce_before_cart' ); ?>
 		display: none;
 	}
 </style>
-<!-- <div class="menu-check">
-<div class="promo-category-wrap"> 
-	<div class="promo-content-wrap">
-		<div class="promo-category-content">
-			<div class="promo-category-img">		
-				<img src="http://localhost/tu-changuito/wp-content/uploads/2020/05/significado-logos-famosos-carrefour.jpg" alt="Sports">			
-			</div>
-			<input onclick="descheckeo()" type="checkbox" name="mostrar-super-1" class="mostrar-super" id="mostrar-super-1"> Mostrar los precios de <?php the_field("super_1"); ?> 
-		</div>
-
-		<div class="promo-category-content">
-			<div class="promo-category-img">		
-				<img src="http://localhost/tu-changuito/wp-content/uploads/2020/05/vea-cencosud.png" alt="Sports">			
-			</div>
-			<input onclick="descheckeo()" type="checkbox" name="mostrar-super-1" class="mostrar-super" id="mostrar-super-1"> Mostrar los precios de <?php the_field("super_2"); ?> 
-		</div>
-		<div class="promo-category-content">
-			<div class="promo-category-img">		
-				<img src="http://localhost/tu-changuito/wp-content/uploads/2020/05/logo-atomo.jpg" alt="Sports">			
-			</div>
-			<input onclick="descheckeo()" type="checkbox" name="mostrar-super-1" class="mostrar-super" id="mostrar-super-1"> Mostrar los precios de <?php the_field("super_3"); ?> 
-		</div>
-		<div class="promo-category-content">
-			<div class="promo-category-img">		
-				<img src="http://localhost/tu-changuito/wp-content/uploads/2020/05/Walmart_logo_transparent_png.png" alt="Sports">			
-			</div>
-			<input onclick="descheckeo()" type="checkbox" name="mostrar-super-1" class="mostrar-super" id="mostrar-super-1"> Mostrar los precios de <?php the_field("super_4"); ?> 
-		</div>
-		<div class="promo-category-content">
-			<div class="promo-category-img">		
-				<img src="http://localhost/tu-changuito/wp-content/uploads/2020/05/logo-coto.png" alt="Sports">			
-			</div>
-			<input onclick="descheckeo()" type="checkbox" name="mostrar-super-1" class="mostrar-super" id="mostrar-super-1"> Mostrar los precios de <?php the_field("super_5"); ?> 
-		</div>
-		<div class="promo-category-content">
-			<div class="promo-category-img">		
-				<img src="http://localhost/tu-changuito/wp-content/uploads/2020/05/Logo_Jumbo_Cencosud.png" alt="Sports">			
-			</div>
-			<input onclick="descheckeo()" type="checkbox" name="mostrar-super-1" class="mostrar-super" id="mostrar-super-1"> Mostrar los precios de <?php the_field("super_6"); ?> 
-		</div>
-
-	</div> 
-			
-	</div>-->
-	<label class="container">
-		<input onclick="descheckeo()" type="checkbox" name="mostrar-super-1" class="mostrar-super" id="mostrar-super-1"> Mostrar los precios de <?php the_field("super_1"); ?> 
-		<span class="checkmark"></span>
-	</label>
-	<label class="container">
-		<input onclick="descheckeo()" type="checkbox" name="mostrar-super-2" class="mostrar-super" id="mostrar-super-2"> Mostrar los precios de <?php the_field("super_2"); ?> 
-		<span class="checkmark"></span>
-	</label>
-	<label class="container">
-		<input onclick="descheckeo()" type="checkbox" name="mostrar-super-3" class="mostrar-super" id="mostrar-super-3"> Mostrar los precios de <?php the_field("super_3"); ?> 
-		<span class="checkmark"></span>
-	</label>
-	<label class="container">
-		<input onclick="descheckeo()" type="checkbox" name="mostrar-super-4" class="mostrar-super" id="mostrar-super-4"> Mostrar los precios de <?php the_field("super_4"); ?> 
-		<span class="checkmark"></span>
-	</label>
-	<label class="container">
-		<input onclick="descheckeo()" type="checkbox" name="mostrar-super-5" class="mostrar-super" id="mostrar-super-5"> Mostrar los precios de <?php the_field("super_5"); ?> 
-		<span class="checkmark"></span>
-	</label>
-	<label class="container">
-		<input onclick="descheckeo()" type="checkbox" name="mostrar-super-6" class="mostrar-super" id="mostrar-super-6"> Mostrar los precios de <?php the_field("super_6"); ?> 
-		<span class="checkmark"></span>
-	</label>
+ 
+	
+	<!-- Acá estaban los label e input checkbox originales 
+  ------------------------------------------------------ >
 
 
- <!-- <div class="menu-check has-pale-ocean-gradient-background">
+  <div class="menu-check has-pale-ocean-gradient-background">
  	<input onclick="descheckeo()" type="checkbox" name="mostrar-super-1" class="mostrar-super" id="mostrar-super-1"> Mostrar los precios de <?php the_field("super_1"); ?> 
 	<input onclick="descheckeo()" type="checkbox" name="mostrar-super-2" class="mostrar-super" id="mostrar-super-2"> Mostrar los precios de <?php the_field("super_2"); ?> <br>
 	<input onclick="descheckeo()" type="checkbox" name="mostrar-super-3" class="mostrar-super" id="mostrar-super-3"> Mostrar los precios de <?php the_field("super_3"); ?> <br>
@@ -102,54 +38,6 @@ do_action( 'woocommerce_before_cart' ); ?>
 	<input onclick="descheckeo()" type="checkbox" name="mostrar-super-5" class="mostrar-super" id="mostrar-super-5"> Mostrar los precios de <?php the_field("super_5"); ?> <br>
 	<input onclick="descheckeo()" type="checkbox" name="mostrar-super-6" class="mostrar-super" id="mostrar-super-6"> Mostrar los precios de <?php the_field("super_6"); ?> <br>
 </div>  -->
-<br>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script>
-function descheckeo() {
-	var mostrarsuper1 = document.getElementById("mostrar-super-1");
-	var mostrarsuper2 = document.getElementById("mostrar-super-2");
-	var mostrarsuper3 = document.getElementById("mostrar-super-3");
-	var mostrarsuper4 = document.getElementById("mostrar-super-4");
-	var mostrarsuper5 = document.getElementById("mostrar-super-5");
-	var mostrarsuper6 = document.getElementById("mostrar-super-6");
-	
-	if (mostrarsuper1.checked == true){
-    $("#mi-carro .super1").removeClass("no-mostrar");
-  } else {
-    $("#mi-carro .super1").addClass("no-mostrar");
-  }
-  	if (mostrarsuper2.checked == true){
-    $("#mi-carro .super2").removeClass("no-mostrar");
-  } else {
-    $("#mi-carro .super2").addClass("no-mostrar");
-  }
-  	if (mostrarsuper3.checked == true){
-    $("#mi-carro .super3").removeClass("no-mostrar");
-  } else {
-    $("#mi-carro .super3").addClass("no-mostrar");
-	}
-  	if (mostrarsuper4.checked == true){
-    $("#mi-carro .super4").removeClass("no-mostrar");
-  } else {
-    $("#mi-carro .super4").addClass("no-mostrar");
-	}
-  	if (mostrarsuper5.checked == true){
-    $("#mi-carro .super5").removeClass("no-mostrar");
-  } else {
-    $("#mi-carro .super5").addClass("no-mostrar");
-	}
-  	if (mostrarsuper6.checked == true){
-    $("#mi-carro .super6").removeClass("no-mostrar");
-  } else {
-    $("#mi-carro .super6").addClass("no-mostrar");
-	}
-	
-	
-}
-
-</script>
-
-
 
 <form id="mi-carro" class="woocommerce-cart-form" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
 	<?php do_action( 'woocommerce_before_cart_table' ); ?>
